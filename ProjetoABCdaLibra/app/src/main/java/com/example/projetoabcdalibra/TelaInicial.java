@@ -1,5 +1,6 @@
 package com.example.projetoabcdalibra;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,7 +10,7 @@ import android.widget.Button;
 public class TelaInicial extends AppCompatActivity implements View.OnClickListener
 {
 
-    private Button btnJogar;
+    private Button btnJogar, btnAprender;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -19,6 +20,10 @@ public class TelaInicial extends AppCompatActivity implements View.OnClickListen
 
         btnJogar = (Button)findViewById(R.id.btnJogar);
         btnJogar.setOnClickListener(this);
+
+        btnAprender = (Button)findViewById(R.id.btnAprender);
+        btnAprender.setOnClickListener(this);
+
     }
 
     @Override
@@ -27,6 +32,11 @@ public class TelaInicial extends AppCompatActivity implements View.OnClickListen
         if(v == btnJogar)
         {
             Intent i = new Intent(this, TelaOpcoes.class);
+            startActivity(i);
+        }
+        if(v == btnAprender)
+        {
+            Intent i = new Intent(this, tela_aprender.class);
             startActivity(i);
         }
     }
