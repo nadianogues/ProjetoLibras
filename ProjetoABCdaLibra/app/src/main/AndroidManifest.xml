@@ -18,7 +18,7 @@
         <activity android:name=".tela_video" />
         <activity android:name=".tela_aprender" />
         <activity android:name=".TelaOpcoes" />
-        <activity android:name=".TelaInicial">
+        <activity android:name=".TelaInicial" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
