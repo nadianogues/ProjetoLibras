@@ -2,6 +2,7 @@ package com.example.projetoabcdalibra;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,6 +25,8 @@ public class TelaInicial extends AppCompatActivity implements View.OnClickListen
         btnAprender = (Button)findViewById(R.id.btnAprender);
         btnAprender.setOnClickListener(this);
 
+        ActionBar title = getSupportActionBar();
+        title.setTitle("ABC Libras");
     }
 
     @Override

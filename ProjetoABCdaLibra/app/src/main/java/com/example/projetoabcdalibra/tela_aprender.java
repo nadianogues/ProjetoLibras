@@ -11,6 +11,6 @@ public class tela_aprender extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_aprender);
         ActionBar title = getSupportActionBar();
-       title.setTitle("Aprendendo o alfabeto");
+        title.setTitle("Aprendendo o alfabeto");
     }
 }
