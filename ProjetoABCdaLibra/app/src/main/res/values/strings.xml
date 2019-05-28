@@ -3,7 +3,7 @@
     <string name="btnJogar">Jogar</string>
     <string name="btnAprender">Aprender</string>
     <string name="txtAprender">Aprendendo o alfabeto</string>
-    <string name="switchOpcoes">Escolha vogal ou consoante</string>
+    <string name="txtOpcoes">Escolha vogal ou consoante</string>
     <string name="txtVogal">Vogal</string>
     <string name="txtConsoante">Consoante</string>
     <string name="txtEscolhaTeclado">Escolha uma letra do teclado</string>
