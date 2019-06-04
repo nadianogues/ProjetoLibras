@@ -4,8 +4,8 @@
     <string name="btnAprender">Aprender</string>
     <string name="txtAprender">Aprendendo o alfabeto</string>
     <string name="txtOpcoes">Escolha vogal ou consoante</string>
-    <string name="txtVogal">Vogal</string>
-    <string name="txtConsoante">Consoante</string>
+    <string name="txtVogal">Vogais</string>
+    <string name="txtConsoante">Consoantes</string>
     <string name="txtEscolhaTeclado">Escolha uma letra do teclado</string>
 
     //teclado
@@ -35,8 +35,5 @@
     <string name="btnW">W</string>
     <string name="btnY">Y</string>
     <string name="btnZ">Z</string>
-    <string name="btnCedilha">Ç</string>
-
-
 
 </resources>
