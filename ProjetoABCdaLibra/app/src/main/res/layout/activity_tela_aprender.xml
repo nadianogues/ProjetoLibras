@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -43,19 +44,29 @@
             android:text="@string/txtConsoante"
             android:textSize="30sp" />
 
-        <LinearLayout
+        <android.support.constraint.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.6"
-            android:gravity="center"
             android:orientation="horizontal">
 
             <Switch
                 android:id="@+id/switch1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
-        </LinearLayout>
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
 
         <TextView
             android:id="@+id/txtVogal"
@@ -97,7 +108,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_weight="0.33"
             android:gravity="bottom"
             android:orientation="horizontal">
@@ -107,76 +118,96 @@
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnQ" />
+                android:drawableTop="@drawable/q"
+                android:text="@string/btnQ"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnW" />
+                android:drawableTop="@drawable/w"
+                android:text="@string/btnW"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnE" />
+                android:drawableTop="@drawable/e"
+                android:text="@string/btnE"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnR" />
+                android:drawableTop="@drawable/r"
+                android:text="@string/btnR"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnT" />
+                android:drawableTop="@drawable/t"
+                android:text="@string/btnT"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnY" />
+                android:drawableTop="@drawable/y"
+                android:text="@string/btnY"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnU" />
+                android:drawableTop="@drawable/u"
+                android:text="@string/btnU"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnI" />
+                android:drawableTop="@drawable/i"
+                android:text="@string/btnI"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnO" />
+                android:drawableTop="@drawable/o"
+                android:text="@string/btnO"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnP" />
+                android:drawableTop="@drawable/p"
+                android:text="@string/btnP"
+                android:textSize="24sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginLeft="40dp"
             android:layout_weight="0.33"
             android:orientation="horizontal">
@@ -186,69 +217,87 @@
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnA" />
+                android:drawableTop="@drawable/a"
+                android:text="@string/btnA"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button39"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnS" />
+                android:drawableTop="@drawable/s"
+                android:text="@string/btnS"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button40"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnD" />
+                android:drawableTop="@drawable/d"
+                android:text="@string/btnD"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button35"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnF" />
+                android:drawableTop="@drawable/f"
+                android:text="@string/btnF"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button41"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnG" />
+                android:drawableTop="@drawable/g"
+                android:text="@string/btnG"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button36"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnH" />
+                android:drawableTop="@drawable/h"
+                android:text="@string/btnH"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button34"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnJ" />
+                android:drawableTop="@drawable/j"
+                android:text="@string/btnJ"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button38"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnK" />
+                android:drawableTop="@drawable/k"
+                android:text="@string/btnK"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button32"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnL" />
+                android:drawableTop="@drawable/l"
+                android:text="@string/btnL"
+                android:textSize="24sp" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_marginLeft="120dp"
             android:layout_weight="0.33"
             android:gravity="top"
@@ -259,49 +308,63 @@
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnZ" />
+                android:drawableTop="@drawable/z"
+                android:text="@string/btnZ"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button52"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnX" />
+                android:drawableTop="@drawable/x"
+                android:text="@string/btnX"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button53"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnC" />
+                android:drawableTop="@drawable/c"
+                android:text="@string/btnC"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button54"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnV" />
+                android:drawableTop="@drawable/v"
+                android:text="@string/btnV"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button56"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnB" />
+                android:drawableTop="@drawable/b"
+                android:text="@string/btnB"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button60"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnN" />
+                android:drawableTop="@drawable/n"
+                android:text="@string/btnN"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button58"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
-                android:text="@string/btnM" />
+                android:drawableTop="@drawable/m"
+                android:text="@string/btnM"
+                android:textSize="24sp" />
 
         </LinearLayout>
     </LinearLayout>
