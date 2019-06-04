@@ -13,7 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.2"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/escolha_vogais_ou_consoantes" />
 
         <TextView
             android:id="@+id/txtOpcoes"
@@ -119,7 +125,13 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.3"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/escolha_uma_letra_do_teclado" />
 
         <TextView
             android:id="@+id/txtEscolhaTeclado"
