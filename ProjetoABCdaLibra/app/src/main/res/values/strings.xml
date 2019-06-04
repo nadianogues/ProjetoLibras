@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ProjetoABCdaLibra</string>
     <string name="btnJogar">Jogar</string>
+    <string name="txtAlfabeto">Alfabeto</string>
+    <string name="txtNumero">Número</string>
     <string name="btnAprender">Aprender</string>
     <string name="txtAprender">Aprendendo o alfabeto</string>
     <string name="txtOpcoes">Escolha vogal ou consoante</string>
