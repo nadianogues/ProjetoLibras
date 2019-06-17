@@ -74,7 +74,7 @@
             android:orientation="horizontal">
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/chaveVogalConsoante"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -159,7 +159,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnQ"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -168,7 +168,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnW"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -177,7 +177,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnE"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -186,7 +186,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnR"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -195,7 +195,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btnT"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -204,7 +204,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/btnY"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -213,7 +213,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/btnU"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -222,7 +222,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button9"
+                android:id="@+id/btnI"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -231,7 +231,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button10"
+                android:id="@+id/btnO"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -240,7 +240,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button11"
+                android:id="@+id/btnP"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -253,12 +253,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:layout_marginLeft="40dp"
             android:layout_weight="0.33"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button37"
+                android:id="@+id/btnA"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -267,7 +267,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button39"
+                android:id="@+id/btnS"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -276,7 +276,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button40"
+                android:id="@+id/btnD"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -285,7 +285,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button35"
+                android:id="@+id/btnF"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -294,7 +294,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button41"
+                android:id="@+id/btnG"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -303,7 +303,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button36"
+                android:id="@+id/btnH"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -312,7 +312,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button34"
+                android:id="@+id/btnJ"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -321,7 +321,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button38"
+                android:id="@+id/btnK"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -330,12 +330,20 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button32"
+                android:id="@+id/btnL"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:drawableTop="@drawable/l"
                 android:text="@string/btnL"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/cc"
+                android:text="@string/btnÇ"
                 android:textSize="24sp" />
 
         </LinearLayout>
@@ -349,7 +357,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button51"
+                android:id="@+id/btnZ"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -358,7 +366,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button52"
+                android:id="@+id/btnX"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -367,7 +375,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button53"
+                android:id="@+id/btnC"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -376,7 +384,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button54"
+                android:id="@+id/btnV"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -385,7 +393,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button56"
+                android:id="@+id/btnB"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -394,7 +402,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button60"
+                android:id="@+id/btnN"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
@@ -403,7 +411,7 @@
                 android:textSize="24sp" />
 
             <Button
-                android:id="@+id/button58"
+                android:id="@+id/btnM"
                 android:layout_width="78dp"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
